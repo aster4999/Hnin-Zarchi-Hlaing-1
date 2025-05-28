@@ -139,8 +139,9 @@
     margin-right: 5px;
 }
 .home img{
-    width: 28rem;
-    height: 40rem;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     margin-top: -5rem;
 }
 
