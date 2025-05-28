@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code-Life</title>
+    <link rel="stylesheet" href="./code-life.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+</head>
+<body style="background-color: rgb(211,226, 251);">
+    <!-- navbar start -->
+<nav class="navbar navbar-expand-lg topnav">
+  <div class="container-fluid">
+    <div class="d-flex align-items-center">
+        <img src="./images/logo.png" alt="logo">
+        <h3 class="mt-3">CODE-LIFE</h3>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link current" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Courses
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+            <li><a class="dropdown-item" href="#">PHP</a></li>
+            <li><a class="dropdown-item" href="#">Java</a></li>
+            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+            <li><a class="dropdown-item" href="#">Python</a></li>
+            <li><a class="dropdown-item" href="#">C/C++</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Apply</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Contact</a>
+        </li>
+      </ul>
+      <button class="btn myacc">My account</button>
+      <button class="btn create">Create account</button>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+<!-- home start -->
+<div class="container-fluid home">
+  <div class="greet">
+    <div class="discount">
+      <button class="btn">New</button>
+      <p>Get 20% off in every courses in April, 2025</p>
+    </div>
+    <h3>Let's Grow Your Coding Level Up with Code-Life</h3>
+    <div class="d-flex">
+       <div class="active">
+      <div class="student">
+        <span>20k+</span>
+        <i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i><i class="fa-solid fa-heart"></i>
+      </div>
+      <p class="stu">active students</p>
+      <p class="web">on website</p>
+    </div>
+    <div class="active">
+      <div class="student">
+        <span>4.7</span>
+        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+      </div>
+      <p class="stu">2,987 Ratings</p>
+      <p class="web">user community</p>
+    </div>
+    </div>
+  </div>
+  <div>
+    <img src="./images/lifestyle-business-people-using-laptop-computer-pink.png" alt="">
+  </div>
+</div>
+<!-- home end -->
+<!-- search section start -->
+ <div class="container p-5" style=" font-family: JetBrains Mono;">
+  <div class="search-box">
+    <h5>Search Courses</h5>
+    <div class="search">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" name="search" id="search" placeholder="Search the Courses">
+      <button class="btn">Search</button>
+    </div>
+  </div>
+  <div class="row g-3 mt-5">
+    <div class="col-lg-6 col-md-6">
+      <div class="row fourimage">
+        <div class="col-lg-6 col-md-6 g-1 px-2">
+          <img class="one"src="./images/joyful-young-pretty-student-girl-wearing-back-bag-holding-pointing-laptop-isolated-orange.jpg" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 g-1 px-2">
+          <img class="two" src="./images/student-guy-casual-clothing-wearing-glasses-with-backpack-holding-laptop-looking-camera-smiling-confident-showing-thumbs-up.jpg" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 px-2">
+          <img class="three" src="./images/young-surprised-pretty-caucasian-schoolgirl-with-headphones-neck-wearing-glasses-back-bag-holds-points-laptop-pink-with-copy-space.jpg" alt="">
+        </div>
+        <div class="col-lg-6 col-md-6 px-2">
+          <img class="four" src="./images/joyful-young-student-boy-wearing-back-bag-glasses-cap-holding-laptop-his-thumb-up.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 benefit" style="padding-left: 7rem; padding-top: 3rem;">
+      <h5 class="fw-bold mb-5">Benefits for our Online Learning</h5>
+      <div class="d-flex align-items-center mb-3">
+        <i class="fa-solid fa-graduation-cap me-4 fs-3"></i>
+        <div>
+          <p class="fw-bold" style="font-size: 17px;">Online Degree</p>
+          <p>This maintains the essence of your career path</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center mb-3">
+        <i class="fa-solid fa-certificate me-4 fs-3"></i>
+        <div>
+          <p class="fw-bold" style="font-size: 17px;">Certification</p>
+          <p>Valid Certificates and Rewards</p>
+        </div>
+      </div>
+      <div class="d-flex align-items-center">
+        <i class="fa-solid fa-crown me-4 fs-3"></i>
+        <div>
+          <p class="fw-bold" style="font-size: 17px;">Placement</p>
+          <p>100% placements & offers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+<!-- search section end -->
+<!-- courses section start -->
+<div class="container-fluid p-5 courses" style=" font-family: JetBrains Mono;">
+  <div class="text-center">
+    <h5 class="title">Our Popular Courses</h5>
+    <p>Online education platform is very easy way to learn anything from anywhere, Nowadays.</p>
+  </div>
+  <div class="row g-3 p-5">
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/Ui,ux.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">UI/UX Design | How to Design with professional</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>45 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/PHP.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PHP Programming | Develop your own skills</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>30 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/java.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Java | Develop Your Own Skills</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>45 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/Javascript.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">JavaScript | Why you become a programmar</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>37 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/python.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Python | From Zero to Hero Learning</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>43 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/c,c++.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">C/C++ | Build the foundation of programming</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>37 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/Csharp.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">C# | Build Powerful Desktop and Web Apps</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>45 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <div class="card">
+        <img src="./images/reactjs.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">ReactJS | Master Modern Web Development with ReactJS</h5>
+          <p class="card-text">$250</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="lesson">
+            <i class="fa-solid fa-circle-play"></i>
+            <span class="fw-bold">24 Lesson</span>
+          </div>
+          <div class="class">
+            <i class="fa-solid fa-record-vinyl"></i>
+            <span class="fw-bold">Online Class</span>
+          </div>
+          </div>
+          <hr>
+          <div class="vote ">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <span>37 Votes</span>
+            <a href="#" class="btn"><i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- courses section end -->
+<!-- video class start -->
+<div class="p-5" style=" font-family: JetBrains Mono;">
+  <div class="joinbtn">
+    <h5>Join your live class with your instructor via video call</h5>
+    <button class="btn">Join Class<span><i class="fa-solid fa-record-vinyl"></i></span></button>
+  </div>
+  <nav class="navbar navbar-expand-lg classnav">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Class Name
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+            <li><a class="dropdown-item" href="#">PHP</a></li>
+            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+            <li><a class="dropdown-item" href="#">Python</a></li>
+            <li><a class="dropdown-item" href="#">Java</a></li>
+            <li><a class="dropdown-item" href="#">C/C++</a></li>
+             <li><a class="dropdown-item" href="#">C#</a></li>
+            <li><a class="dropdown-item" href="#">ReactJS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Section
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Section A</a></li>
+            <li><a class="dropdown-item" href="#">Section B</a></li>
+            <li><a class="dropdown-item" href="#">Section C</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Subject
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+            <li><a class="dropdown-item" href="#">PHP</a></li>
+            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+            <li><a class="dropdown-item" href="#">Python</a></li>
+            <li><a class="dropdown-item" href="#">Java</a></li>
+            <li><a class="dropdown-item" href="#">C/C++</a></li>
+            <li><a class="dropdown-item" href="#">C#</a></li>
+            <li><a class="dropdown-item" href="#">ReactJS</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Room
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Room 101</a></li>
+            <li><a class="dropdown-item" href="#">Room 202</a></li>
+            <li><a class="dropdown-item" href="#">Onlin</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="conbox mx-auto">
+  <div class="live">
+      <i class="fa-solid fa-circle"></i>
+      <span>Live</span><span>1:12:56</span>
+  </div>
+  <div class="profile">
+    <p>105 Students Joined</p>
+    <img src="./images/profile1.jpeg" alt="" class="img1">
+    <img src="./images/profile2.jpeg" alt="" class="img2">
+    <img src="./images/profile3.jpeg" alt="" class="img3">
+    <img src="./images/profile4.jpeg" alt="" class="img4">
+    <img src="./images/profile5.jpeg" alt="" class="img5">
+    <img src="./images/profile6.jpeg" alt="" class="img6">
+    <img src="./images/profile7.jpeg" alt="" class="img7">
+    <img src="./images/Bold Plus on Fiery Background.png" alt="" class="img8">
+  </div>
+  <div class="controls">
+    <i class="fa-solid fa-microphone"></i>
+    <i class="fa-solid fa-phone"></i>
+    <i class="fa-solid fa-video"></i>
+    <i class="fa-solid fa-share-nodes"></i>
+  </div>
+</div>
+</div>
+<!-- video class end -->
+<!-- professor section start -->
+<div class="container-fluid professor" style=" font-family: JetBrains Mono;">
+  <h5 class="text-center p-4 title">Meet Our Expert Professorer</h5>
+  <div class="row g-2">
+    <div class="col-lg-2 col-md-2 col-sm-4">
+      <div class="card">
+      <img src="./images/professor1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Austion Jane</h5>
+        <p class="card-text">Professor</p>
+        <a href="#" class="btn">Visit profile</a>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4">
+      <div class="card">
+      <img src="./images/professor2.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Harry Callum</h5>
+        <p class="card-text">Professor</p>
+        <a href="#" class="btn">Visit profile</a>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4">
+      <div class="card">
+      <img src="./images/professor3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Oliver Noah</h5>
+        <p class="card-text">Professor</p>
+        <a href="#" class="btn">Visit profile</a>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4">
+      <div class="card">
+      <img src="./images/professor4.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Charlie kyle</h5>
+        <p class="card-text">Professor</p>
+        <a href="#" class="btn">Visit profile</a>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4">
+      <div class="card">
+      <img src="./images/professor5.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">George Michael</h5>
+        <p class="card-text">Professor</p>
+        <a href="#" class="btn">Visit profile</a>
+      </div>
+      </div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4">
+      <div class="card">
+      <img src="./images/professor6.jpeg" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ameilia Margaret</h5>
+        <p class="card-text">Professor</p>
+        <a href="#" class="btn">Visit profile</a>
+      </div>
+      </div>
+    </div>
+    </div> 
+  </div>
+</div>
+<!-- professor section end -->
+<!-- teacher section start -->
+ <div class="container teacher p-5 d-flex justify-content-around align-items-center" style=" font-family: JetBrains Mono;">
+  <div class="certified">
+    <h5 class="title mb-3">If You Are A Certified Teacher, Then Become An Instructor</h5>
+    <p>Join our platform as an instructor and start sharing your knowledge today</p>
+    <h5 class="fw-bold">Enjoy Many Perks</h5>
+    <ul>
+      <li>100% support</li>
+      <li>Flexible Schedule</li>
+      <li>Innivative Teaching Tools</li>
+      <li>Recognition & Certification</li>
+      <li>Passive Income</li>
+      <li>Showcase Your Expertise</li>
+      <li>Professional Development</li>
+    </ul>
+    <a class="btn" href="#">Start Learning Now</a>
+  </div>
+  <div class="woman">
+    <img src="./images/woman-having-video-call-laptop.jpg" alt="">
+  </div>
+ </div>
+<!-- teacher section end -->
+<!-- alert box section start -->
+ <div class="container alert" style=" font-family: JetBrains Mono;">
+  <div >
+    <img src="./images/young-asian-woman-working-remotely-freelance-girl-sits-park-with-laptop-doing-her-job-from-outdoo_edited.jpg" alt="">
+  </div>
+  <div class="box">
+    <p class="join">Join over 25,000+ Global Students</p>
+    <h4>Get instant alert on your box</h4>
+    <p>We receive over 120 new applicants, all are interested to join their particular course, we send you message when you apply and join with us for any course</p>
+    <div class="mailbox">
+      <i class="fa-solid fa-envelope"></i>
+      <input type="email" name="email" id="email" placeholder="Enter your Email">
+      <button class="btn">Join Now</button>
+    </div>
+  </div>
+ </div>
+<!-- alert box section end -->
+<!-- review section start -->
+ <div class="container-fluid review mt-5" style=" font-family: JetBrains Mono;">
+  <h5>Recent FeedBacks</h5>
+  <div class="row g-4">
+    <div class="col-lg-6 col-md-6">
+    <div class="reviewbox">
+      <div class="profile">
+        <img src="./images/profile2.jpeg" alt="">
+      </div>
+      <div class="right">
+        <div class="d-flex justify-content-between align-items-center">
+        <p class="name">Robert Karmazov</p>
+        <div>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt nemo neque quod autem quasi a dolor labore exercitationem! Similique!</p>
+      </div>
+    </div>
+    <div class="reviewbox">
+      <div class="profile">
+        <img src="./images/profile3.jpeg" alt="">
+      </div>
+      <div class="right">
+        <div class="d-flex justify-content-between align-items-center">
+        <p class="name">Amelia</p>
+        <div>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt nemo neque quod autem quasi a dolor labore exercitationem! Similique!</p>
+      </div>
+    </div>
+    <div class="reviewbox">
+      <div class="profile">
+        <img src="./images/profile6.jpeg" alt="">
+      </div>
+      <div class="right">
+        <div class="d-flex justify-content-between align-items-center">
+        <p class="name">Alice</p>
+        <div>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam sunt nemo neque quod autem quasi a dolor labore exercitationem! Similique!</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6 col-md-6 write">
+    <h5>Add a Review</h5>
+    <p>Add your Rating*</p>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+      <i class="fa-solid fa-star"></i>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name*</label>
+      <input type="text" class="form-control" id="name" placeholder="Enter your name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email*</label>
+      <input type="email" class="form-control" id="name" placeholder="Enter your email">
+    </div>
+    <div class="mb-3">
+      <label for="review" class="form-label">Write your Review*</label>
+      <textarea class="form-control" id="review" rows="4" placeholder="Write here..."></textarea>
+    </div>
+    <button class="btn text-center">Submit</button>
+  </div>
+  </div>
+ </div>
+<!-- review section end -->
+<!-- sign up section start -->
+ <div class="newsletter" style=" font-family: JetBrains Mono;">
+  <h5>Sign up to our newsletter</h5>
+  <p>Receive latest update news, and many others things in every week</p>
+  <div class="mailbox mx-auto">
+    <i class="fa-solid fa-envelope"></i>
+    <input type="email" name="email" id="email" placeholder="info.codelife99@gmail.com">
+    <button class="btn">Subscribe</button>
+  </div>
+ </div>
+<!-- sign up section end -->
+<!-- footer start -->
+<div class="container-fluid mt-5 footer" style=" font-family: JetBrains Mono;">
+  <div class="row g-3">
+    <div class="col-lg-3 col-md-3">
+      <h5 style="font-family: College Semi-condensed;">CODE-LIFE</h5>
+      <p>Code-life wonderful educational platform for you of my entire soul like these sweet mornings of spring which I enjoy wiht my whole heart</p>
+      <div class="social">
+        <i class="fa-brands fa-facebook"></i><span>Code-life Myanmar</span>
+      </div>
+      <div class="social">
+        <i class="fa-brands fa-square-twitter"></i><span>@code-life_99</span>
+      </div>
+      <div class="social">
+        <i class="fa-brands fa-youtube"></i><span>Code-life Myanmar</span>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <p class="fw-bold fs-5">Categories</p>
+      <p>ios Develop</p>
+      <p>Frontend-Develop</p>
+      <p>UI/UX design</p>
+      <p>Backend-develop</p>
+      <p>Software develop</p>
+      <p>program & tech</p>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <p class="fw-bold fs-5">Community</p>
+      <p>Events</p>
+      <p>Blog</p>
+      <p>forum</p>
+      <p>Podcast</p>
+      <p>Affiliates</p>
+      <p>Invite a friend</p>
+    </div>
+    <div class="col-lg-3 col-md-3">
+      <p class="fw-bold fs-5">Support</p>
+      <p>About us</p>
+      <p>Partnership</p>
+      <p>finance Experts</p>
+      <p>Project Management</p>
+      <p>Project Manager</p>
+      <p>Our Mentors</p>
+    </div>
+  </div>
+</div>
+
+<!-- footer end -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
