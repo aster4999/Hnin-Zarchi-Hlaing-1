@@ -68,7 +68,6 @@
     position: relative;
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     border: 1px solid white;
     width: 25rem;
     border-radius: 10px;
